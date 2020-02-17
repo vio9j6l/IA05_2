@@ -9,7 +9,7 @@ public abstract class Animal {
   private String name = "";
 
   public Animal() {
-    Logger logger = new Logger();
+    Logger logger = Logger.getInstance();
     logger.log("Instantiating " + this.getClass().getName());
   }
 
@@ -18,7 +18,7 @@ public abstract class Animal {
   }
 
   public void setName(String name) {
-    Logger logger = new Logger();
+    Logger logger = Logger.getInstance();
     this.name = name;
     logger.log(String.format("Naming the %s '%s'", this.getClass().getName(), this.name));
   }

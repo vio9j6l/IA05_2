@@ -18,11 +18,14 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Logger {
+    //This will be the only instance of a Logger
+    private static final Logger INSTANCE = new Logger();
     private String logFileName = "myLogFile.log";
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
 
-
-    Logger() {
+// Change the Logger() constructor to be private
+// Logger() constructor is only available to Logger class itself
+    private Logger() {
         File logFile = new File(logFileName);
         if (!logFile.isFile()) {
             try {
@@ -45,6 +48,11 @@ public class Logger {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    //A getter for other classes to access of that instance of Logger
+    public static final Logger getInstance() {
+        return INSTANCE;
     }
 
 

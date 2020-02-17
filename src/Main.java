@@ -15,7 +15,8 @@ public class Main
     }
 
     public static void main(String[] args) {
-        Logger logger = new Logger();
+        //calling Logger constructor by using the getter method
+        Logger logger = Logger.getInstance();
         logger.log("Program started");
 
         Animal dog = new Dog();
@@ -31,7 +32,8 @@ public class Main
         bird.setName("Tweety");
         showOff(bird);
 
-        Logger logger2 = new Logger();
+        //calling Logger constructor by using the getter method
+        Logger logger2 = Logger.getInstance();
         logger2.log("Program ended");
     }
 
