@@ -1,8 +1,10 @@
 /*
  Course: IST 311
+ Semester: Spring 2020
  Instructor: Phil O'Connell (pxo4)
  Student: JiaJia Liu
  Email: JPL5840@psu.edu
+ Assignment: IA05
 */
 
 public class Main
@@ -19,9 +21,10 @@ public class Main
         Logger logger = Logger.getInstance();
         logger.log("Program started");
 
-        Animal dog = new Dog();
-        Animal cat = new Cat();
-        Animal bird = new Bird();
+        //Create a new object by calling buildAnimal() from SimpleAnimalFactory class
+        Animal dog = SimpleAnimalFactory.buildAnimal("dog");
+        Animal cat = SimpleAnimalFactory.buildAnimal("cat");
+        Animal bird = SimpleAnimalFactory.buildAnimal("bird");
 
         dog.setName("Fido");
         showOff(dog);
