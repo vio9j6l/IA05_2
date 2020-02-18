@@ -31,3 +31,50 @@
 2020-02-17 13:57:11.992 - Naming the Cat 'Toonces'
 2020-02-17 13:57:11.994 - Naming the Bird 'Tweety'
 2020-02-17 13:57:11.995 - Program ended
+2020-02-17 19:23:41.492 - Program started
+2020-02-17 19:23:41.539 - Instantiating Dog
+2020-02-17 19:23:41.541 - Instantiating Cat
+2020-02-17 19:23:41.541 - Instantiating Bird
+2020-02-17 19:23:41.548 - Naming the Dog 'Fido'
+2020-02-17 19:23:41.549 - Naming the Cat 'Toonces'
+2020-02-17 19:23:41.551 - Naming the Bird 'Tweety'
+2020-02-17 19:23:41.552 - Program ended
+2020-02-17 20:39:40.413 - Program started
+2020-02-17 20:39:44.227 - Instantiating Dog
+2020-02-17 20:39:44.229 - Instantiating Cat
+2020-02-17 20:39:44.233 - Instantiating Bird
+2020-02-17 20:39:44.240 - Naming the Dog 'Fido'
+2020-02-17 20:39:44.245 - Naming the Cat 'Toonces'
+2020-02-17 20:39:44.247 - Naming the Bird 'Tweety'
+2020-02-17 20:39:44.248 - Program ended
+2020-02-17 20:58:24.836 - Program started
+2020-02-17 20:58:29.163 - Instantiating Dog
+2020-02-17 20:58:29.170 - Naming the Dog 'Fido'
+2020-02-17 20:58:29.175 - Program ended
+2020-02-17 20:58:39.964 - Program started
+2020-02-17 20:58:43.533 - Instantiating Cat
+2020-02-17 20:58:43.540 - Naming the Cat 'Toonces'
+2020-02-17 20:58:43.545 - Program ended
+2020-02-17 21:01:15.647 - Program started
+2020-02-17 21:01:17.863 - Instantiating Dog
+2020-02-17 21:01:17.868 - Naming the Dog 'Fido'
+2020-02-17 21:01:17.872 - Instantiating Cat
+2020-02-17 21:01:17.873 - Naming the Cat 'Toonces'
+2020-02-17 21:01:17.874 - Instantiating Cat
+2020-02-17 21:01:17.875 - Naming the Cat 'Toonces'
+2020-02-17 21:01:33.111 - Program started
+2020-02-17 21:01:34.797 - Instantiating Dog
+2020-02-17 21:01:34.814 - Naming the Dog 'Fido'
+2020-02-17 21:01:34.820 - Instantiating Cat
+2020-02-17 21:01:34.828 - Naming the Cat 'Toonces'
+2020-02-17 21:01:34.830 - Instantiating Cat
+2020-02-17 21:01:34.831 - Naming the Cat 'Toonces'
+2020-02-17 21:01:34.833 - Program ended
+2020-02-17 21:01:53.178 - Program started
+2020-02-17 21:01:55.320 - Instantiating Dog
+2020-02-17 21:01:55.328 - Naming the Dog 'Fido'
+2020-02-17 21:01:55.333 - Instantiating Cat
+2020-02-17 21:01:55.338 - Naming the Cat 'Toonces'
+2020-02-17 21:01:55.340 - Instantiating Bird
+2020-02-17 21:01:55.342 - Naming the Bird 'Tweety'
+2020-02-17 21:01:55.343 - Program ended
