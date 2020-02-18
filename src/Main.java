@@ -6,6 +6,7 @@
  Email: JPL5840@psu.edu
  Assignment: IA05
 */
+
 import java.util.Scanner;
 
 public class Main
